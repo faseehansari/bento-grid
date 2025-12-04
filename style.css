@@ -31,6 +31,12 @@
     border-radius: 15px;
     /* font-size: 25px; */
     overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.box:hover{
+    transform: scale(1.05);
+    /* box-shadow: 0 10px 10px rbga(0,0,0,0,02);` */
 }
 .box img{
   width: 100%;
